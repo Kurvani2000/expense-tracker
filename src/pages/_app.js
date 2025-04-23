@@ -1,5 +1,5 @@
-import { ExpenseProvider } from '../context/ExpenseContext';
-import Layout from '../src/components/Layout';
+import { ExpenseProvider } from '../context/expenseContext';
+import Layout from '../components/layout';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {

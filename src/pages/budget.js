@@ -1,4 +1,4 @@
-import { useExpenses } from '../src/context/ExpenseContext';
+import { useExpenses } from '../src/context/expenseContext';
 import { useState } from 'react';
 
 const categories = [

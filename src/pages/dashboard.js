@@ -1,6 +1,6 @@
 import BudgetProgress from '../components/BudgetProgress';
 import ExpenseChart from '../components/expenseChart';
-import { useExpenses } from '../context/ExpenseContext';
+import { useExpenses } from '../context/expenseContext';
 
 export default function Dashboard() {
   const { expenses, budgets } = useExpenses();
