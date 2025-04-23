@@ -1,4 +1,4 @@
-import { ExpenseProvider } from '../context/expenseContext';
+import { ExpenseProvider } from '../context/ExpenseContext';
 import Layout from '../components/layout';
 import '../styles/globals.css';
 

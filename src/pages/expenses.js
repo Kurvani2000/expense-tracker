@@ -1,6 +1,7 @@
 import Layout from '../components/layout';
 import ExpenseForm from '../components/expenseForm';
 import ExpenseList from '../components/expenseList';
+import { useExpenses } from '../context/ExpenseContext';
 import { useState } from 'react';
 
 export default function Expenses() {
